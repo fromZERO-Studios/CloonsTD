@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 32a19d037939b7d49bfe86f90d57b437
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3781443855071548749
+    second: DartMonkeyLvl7_0
+  - first:
+      213: 6558955079216498942
+    second: DartMonkeyLvl7_1
+  - first:
+      213: 6495273432009558517
+    second: DartMonkeyLvl7_2
+  - first:
+      213: -5567794403737831368
+    second: DartMonkeyLvl7_3
+  - first:
+      213: 2800851919619336378
+    second: DartMonkeyLvl7_4
+  - first:
+      213: -1148717014615800837
+    second: DartMonkeyLvl7_5
+  - first:
+      213: -4577877932970564008
+    second: DartMonkeyLvl7_6
+  - first:
+      213: -367499673426712203
+    second: DartMonkeyLvl7_7
+  - first:
+      213: 4799169680754784971
+    second: DartMonkeyLvl7_8
+  - first:
+      213: -6693970057090402328
+    second: DartMonkeyLvl7_9
+  - first:
+      213: -1003710649507447465
+    second: DartMonkeyLvl7_10
+  - first:
+      213: 4652160391496591107
+    second: DartMonkeyLvl7_11
+  - first:
+      213: -2901027361679492360
+    second: DartMonkeyLvl7_12
+  - first:
+      213: 1544310577741241382
+    second: DartMonkeyLvl7_13
+  - first:
+      213: 3372529118619390128
+    second: DartMonkeyLvl7_14
+  - first:
+      213: -1380691919855891302
+    second: DartMonkeyLvl7_15
+  - first:
+      213: -6658788556813033970
+    second: DartMonkeyLvl7_16
+  - first:
+      213: -8975388115095197784
+    second: DartMonkeyLvl7_17
+  - first:
+      213: 3618052464587579788
+    second: DartMonkeyLvl7_18
+  - first:
+      213: 543481789624420938
+    second: DartMonkeyLvl7_19
+  - first:
+      213: -1954873441377406645
+    second: DartMonkeyLvl7_20
+  - first:
+      213: -6667829501878153171
+    second: DartMonkeyLvl7_21
+  - first:
+      213: 9073901349132845746
+    second: DartMonkeyLvl7_22
+  - first:
+      213: -752962776607044055
+    second: DartMonkeyLvl7_23
+  - first:
+      213: -3788378662096463635
+    second: DartMonkeyLvl7_24
+  - first:
+      213: 218755047208423616
+    second: DartMonkeyLvl7_25
+  - first:
+      213: -4514265827387730938
+    second: DartMonkeyLvl7_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 571
+        width: 92
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d459f97b6236a7430800000000000000
+      internalID: 3781443855071548749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 571
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8817ac4e6160b50800000000000000
+      internalID: 6558955079216498942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 576
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f946f1e5c8d32a50800000000000000
+      internalID: 6495273432009558517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 576
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8387cce3d783bb2b0800000000000000
+      internalID: -5567794403737831368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_4
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 576
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8a1693bff9ed620800000000000000
+      internalID: 2800851919619336378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 462
+        width: 111
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3c06c16ffee00f0800000000000000
+      internalID: -1148717014615800837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_6
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 462
+        width: 111
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856a03c464c1870c0800000000000000
+      internalID: -4577877932970564008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 462
+        width: 111
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579245e7ef066eaf0800000000000000
+      internalID: -367499673426712203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 462
+        width: 111
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcab636c5631a9240800000000000000
+      internalID: 4799169680754784971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 462
+        width: 111
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7760203bd3a13a0800000000000000
+      internalID: -6693970057090402328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 348
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75df4de6b7a1212f0800000000000000
+      internalID: -1003710649507447465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 348
+        width: 111
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307eb455a3bcf8040800000000000000
+      internalID: 4652160391496591107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_12
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 348
+        width: 87
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fab76f1cfa7db7d0800000000000000
+      internalID: -2901027361679492360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_13
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 348
+        width: 89
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c1521d94e7e6510800000000000000
+      internalID: 1544310577741241382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_14
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 348
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b058fd6d51adce20800000000000000
+      internalID: 3372529118619390128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 234
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cccbc930cc6dce0800000000000000
+      internalID: -1380691919855891302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_16
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 234
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e19bc561b3793a0800000000000000
+      internalID: -6658788556813033970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_17
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 234
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7ec7e1014017380800000000000000
+      internalID: -8975388115095197784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_18
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 234
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81287a1c87e53230800000000000000
+      internalID: 3618052464587579788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_19
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 234
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a0574eec5da8700800000000000000
+      internalID: 543481789624420938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 120
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41bad166f4eed4e0800000000000000
+      internalID: -1954873441377406645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 120
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20dead456c1773a0800000000000000
+      internalID: -6667829501878153171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_22
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 120
+        width: 90
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b240029339fced70800000000000000
+      internalID: 9073901349132845746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_23
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 120
+        width: 90
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ece331850fc85f0800000000000000
+      internalID: -752962776607044055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_24
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 120
+        width: 91
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de81213bda9fc6bc0800000000000000
+      internalID: -3788378662096463635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 92
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c09ea17e8c290300800000000000000
+      internalID: 218755047208423616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DartMonkeyLvl7_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 92
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6049ed8c52b1a51c0800000000000000
+      internalID: -4514265827387730938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DartMonkeyLvl7_0: 3781443855071548749
+      DartMonkeyLvl7_1: 6558955079216498942
+      DartMonkeyLvl7_10: -1003710649507447465
+      DartMonkeyLvl7_11: 4652160391496591107
+      DartMonkeyLvl7_12: -2901027361679492360
+      DartMonkeyLvl7_13: 1544310577741241382
+      DartMonkeyLvl7_14: 3372529118619390128
+      DartMonkeyLvl7_15: -1380691919855891302
+      DartMonkeyLvl7_16: -6658788556813033970
+      DartMonkeyLvl7_17: -8975388115095197784
+      DartMonkeyLvl7_18: 3618052464587579788
+      DartMonkeyLvl7_19: 543481789624420938
+      DartMonkeyLvl7_2: 6495273432009558517
+      DartMonkeyLvl7_20: -1954873441377406645
+      DartMonkeyLvl7_21: -6667829501878153171
+      DartMonkeyLvl7_22: 9073901349132845746
+      DartMonkeyLvl7_23: -752962776607044055
+      DartMonkeyLvl7_24: -3788378662096463635
+      DartMonkeyLvl7_25: 218755047208423616
+      DartMonkeyLvl7_26: -4514265827387730938
+      DartMonkeyLvl7_3: -5567794403737831368
+      DartMonkeyLvl7_4: 2800851919619336378
+      DartMonkeyLvl7_5: -1148717014615800837
+      DartMonkeyLvl7_6: -4577877932970564008
+      DartMonkeyLvl7_7: -367499673426712203
+      DartMonkeyLvl7_8: 4799169680754784971
+      DartMonkeyLvl7_9: -6693970057090402328
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

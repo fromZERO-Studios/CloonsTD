@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 26175cdaebe1a794293417e611e57edd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6836061126957159481
+    second: BoomerangMonkeyLvl3_0
+  - first:
+      213: 878575839286433814
+    second: BoomerangMonkeyLvl3_1
+  - first:
+      213: -4732347280988581407
+    second: BoomerangMonkeyLvl3_2
+  - first:
+      213: 456968337080361341
+    second: BoomerangMonkeyLvl3_3
+  - first:
+      213: 897619737455166603
+    second: BoomerangMonkeyLvl3_4
+  - first:
+      213: 249666767033961972
+    second: BoomerangMonkeyLvl3_5
+  - first:
+      213: -2241781655453896158
+    second: BoomerangMonkeyLvl3_6
+  - first:
+      213: -614468275385694711
+    second: BoomerangMonkeyLvl3_7
+  - first:
+      213: 161843220920751337
+    second: BoomerangMonkeyLvl3_8
+  - first:
+      213: -6297975052827072998
+    second: BoomerangMonkeyLvl3_9
+  - first:
+      213: -6908562437578660509
+    second: BoomerangMonkeyLvl3_10
+  - first:
+      213: -7165749425885290580
+    second: BoomerangMonkeyLvl3_11
+  - first:
+      213: 404048015207036692
+    second: BoomerangMonkeyLvl3_12
+  - first:
+      213: 7609932548585217434
+    second: BoomerangMonkeyLvl3_13
+  - first:
+      213: 4375542798881459356
+    second: BoomerangMonkeyLvl3_14
+  - first:
+      213: -6319787154210738175
+    second: BoomerangMonkeyLvl3_15
+  - first:
+      213: -8554917250897713680
+    second: BoomerangMonkeyLvl3_16
+  - first:
+      213: 8012050166021917163
+    second: BoomerangMonkeyLvl3_17
+  - first:
+      213: -1900974538065637214
+    second: BoomerangMonkeyLvl3_18
+  - first:
+      213: -2987931565051505649
+    second: BoomerangMonkeyLvl3_19
+  - first:
+      213: -2368442230753350442
+    second: BoomerangMonkeyLvl3_20
+  - first:
+      213: -2804159551243382499
+    second: BoomerangMonkeyLvl3_21
+  - first:
+      213: 4287923691589812594
+    second: BoomerangMonkeyLvl3_22
+  - first:
+      213: 8410181620971077004
+    second: BoomerangMonkeyLvl3_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 94
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934532f30619ede50800000000000000
+      internalID: 6836061126957159481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 86
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61898e82214513c00800000000000000
+      internalID: 878575839286433814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 81
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1d3e29833535eb0800000000000000
+      internalID: -4732347280988581407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_3
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 77
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71a64d084a775600800000000000000
+      internalID: 456968337080361341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 70
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84056a356cf47c00800000000000000
+      internalID: 897619737455166603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_5
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 73
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd87411a9ef67300800000000000000
+      internalID: 249666767033961972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 78
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222feaa367793e0e0800000000000000
+      internalID: -2241781655453896158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 77
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90683efeb58f877f0800000000000000
+      internalID: -614468275385694711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_8
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 81
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4594c4d8bfe3200800000000000000
+      internalID: 161843220920751337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_9
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 98
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1668fbbe091998a0800000000000000
+      internalID: -6297975052827072998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_10
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 98
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365648fe01bdf10a0800000000000000
+      internalID: -6908562437578660509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_11
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 98
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafd5a8ecd42e8c90800000000000000
+      internalID: -7165749425885290580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 22
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417fd9277877b9500800000000000000
+      internalID: 404048015207036692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 15
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dda137559eb9960800000000000000
+      internalID: 7609932548585217434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 9
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c09d23efc09bc30800000000000000
+      internalID: 4375542798881459356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_15
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 6
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1003131211b9b48a0800000000000000
+      internalID: -6319787154210738175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 0
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f561611614d64980800000000000000
+      internalID: -8554917250897713680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 3
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be988542d25803f60800000000000000
+      internalID: 8012050166021917163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_18
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 8
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0198bbab16e95e0800000000000000
+      internalID: -1900974538065637214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_19
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 7
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f049de3821cb886d0800000000000000
+      internalID: -2987931565051505649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_20
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 10
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dca9e4f65a912fd0800000000000000
+      internalID: -2368442230753350442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_21
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 28
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d119e96cebf9519d0800000000000000
+      internalID: -2804159551243382499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_22
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 28
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271413d01e3c18b30800000000000000
+      internalID: 4287923691589812594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomerangMonkeyLvl3_23
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 28
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8dff7e00a7f6b470800000000000000
+      internalID: 8410181620971077004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BoomerangMonkeyLvl3_0: 6836061126957159481
+      BoomerangMonkeyLvl3_1: 878575839286433814
+      BoomerangMonkeyLvl3_10: -6908562437578660509
+      BoomerangMonkeyLvl3_11: -7165749425885290580
+      BoomerangMonkeyLvl3_12: 404048015207036692
+      BoomerangMonkeyLvl3_13: 7609932548585217434
+      BoomerangMonkeyLvl3_14: 4375542798881459356
+      BoomerangMonkeyLvl3_15: -6319787154210738175
+      BoomerangMonkeyLvl3_16: -8554917250897713680
+      BoomerangMonkeyLvl3_17: 8012050166021917163
+      BoomerangMonkeyLvl3_18: -1900974538065637214
+      BoomerangMonkeyLvl3_19: -2987931565051505649
+      BoomerangMonkeyLvl3_2: -4732347280988581407
+      BoomerangMonkeyLvl3_20: -2368442230753350442
+      BoomerangMonkeyLvl3_21: -2804159551243382499
+      BoomerangMonkeyLvl3_22: 4287923691589812594
+      BoomerangMonkeyLvl3_23: 8410181620971077004
+      BoomerangMonkeyLvl3_3: 456968337080361341
+      BoomerangMonkeyLvl3_4: 897619737455166603
+      BoomerangMonkeyLvl3_5: 249666767033961972
+      BoomerangMonkeyLvl3_6: -2241781655453896158
+      BoomerangMonkeyLvl3_7: -614468275385694711
+      BoomerangMonkeyLvl3_8: 161843220920751337
+      BoomerangMonkeyLvl3_9: -6297975052827072998
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

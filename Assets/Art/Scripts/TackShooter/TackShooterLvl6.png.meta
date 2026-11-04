@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: de15b0dfe264f3547b0e026e8250de5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1794257872564355039
+    second: TackShooterLvl6_0
+  - first:
+      213: -6296564033355182929
+    second: TackShooterLvl6_1
+  - first:
+      213: -5705824413087619034
+    second: TackShooterLvl6_2
+  - first:
+      213: -3361831230563211627
+    second: TackShooterLvl6_3
+  - first:
+      213: -7219383228517259634
+    second: TackShooterLvl6_4
+  - first:
+      213: -1034215791406344527
+    second: TackShooterLvl6_5
+  - first:
+      213: 7858872086404998747
+    second: TackShooterLvl6_6
+  - first:
+      213: -5318607247430990612
+    second: TackShooterLvl6_7
+  - first:
+      213: 4611708956006039205
+    second: TackShooterLvl6_8
+  - first:
+      213: 7657068738623044217
+    second: TackShooterLvl6_9
+  - first:
+      213: -2233314355450109110
+    second: TackShooterLvl6_10
+  - first:
+      213: -8734543411642252611
+    second: TackShooterLvl6_11
+  - first:
+      213: 7911422546667156884
+    second: TackShooterLvl6_12
+  - first:
+      213: -4871593029043324711
+    second: TackShooterLvl6_13
+  - first:
+      213: 8997566373161551866
+    second: TackShooterLvl6_14
+  - first:
+      213: 6165131310469187824
+    second: TackShooterLvl6_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TackShooterLvl6_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 59
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf75a9570c76e810800000000000000
+      internalID: 1794257872564355039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 59
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac0d5e4f5c1e98a0800000000000000
+      internalID: -6296564033355182929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62829235de6d0d0b0800000000000000
+      internalID: -5705824413087619034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 59
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596277bbe406851d0800000000000000
+      internalID: -3361831230563211627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 60
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86e0de14399fcb90800000000000000
+      internalID: -7219383228517259634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_5
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 59
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6102c973ab5a1f0800000000000000
+      internalID: -1034215791406344527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 59
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5627654682501d60800000000000000
+      internalID: 7858872086404998747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 60
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4ce0d33e28036b0800000000000000
+      internalID: -5318607247430990612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_8
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 59
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae3a329cd4100040800000000000000
+      internalID: 4611708956006039205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_9
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 59
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97aff5ae27f534a60800000000000000
+      internalID: 7657068738623044217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_10
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 59
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43ad932d6ca101e0800000000000000
+      internalID: -2233314355450109110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_11
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 60
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2c5d17b0ba8c680800000000000000
+      internalID: -8734543411642252611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_12
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 59
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495bc12c3e40bcd60800000000000000
+      internalID: 7911422546667156884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d87a9d63ff946cb0800000000000000
+      internalID: -4871593029043324711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af74b4bf1f6cddc70800000000000000
+      internalID: 8997566373161551866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TackShooterLvl6_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8872a3342fe8550800000000000000
+      internalID: 6165131310469187824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TackShooterLvl6_0: 1794257872564355039
+      TackShooterLvl6_1: -6296564033355182929
+      TackShooterLvl6_10: -2233314355450109110
+      TackShooterLvl6_11: -8734543411642252611
+      TackShooterLvl6_12: 7911422546667156884
+      TackShooterLvl6_13: -4871593029043324711
+      TackShooterLvl6_14: 8997566373161551866
+      TackShooterLvl6_15: 6165131310469187824
+      TackShooterLvl6_2: -5705824413087619034
+      TackShooterLvl6_3: -3361831230563211627
+      TackShooterLvl6_4: -7219383228517259634
+      TackShooterLvl6_5: -1034215791406344527
+      TackShooterLvl6_6: 7858872086404998747
+      TackShooterLvl6_7: -5318607247430990612
+      TackShooterLvl6_8: 4611708956006039205
+      TackShooterLvl6_9: 7657068738623044217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
