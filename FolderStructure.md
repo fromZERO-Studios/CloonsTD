@@ -8,11 +8,8 @@
     + Audio
       + Music
       + Sound
-    + Code
-      + Scripts
-        + UI   
+    + Scripts
+      + UI   
       + SO
-    + Level
-      + Prefabs
-      + UI
+    + Prefabs
     + Scenes
