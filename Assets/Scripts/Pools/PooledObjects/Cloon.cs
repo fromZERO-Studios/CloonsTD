@@ -3,7 +3,7 @@ using UnityEngine;
 namespace CloonsTD;
 
 public class Cloon : PooledObject {
-    [SerializeField] SpriteRenderer spriteRenderer; // O MeshRenderer si es 3D
+    [SerializeField] SpriteRenderer spriteRenderer;
 
     CloonData data;
     int currentHealth;
