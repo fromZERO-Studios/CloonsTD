@@ -4,9 +4,12 @@ namespace CloonsTD {
     [CreateAssetMenu(fileName = "MonkeyData", menuName = "Scriptable Objects/MonkeyData")]
     public class MonkeyData : ScriptableObject {
         public Projectile projectilePrefab;
+        public float damage;
+        public int pierce;
+        public float projectileSpeed;
 
-        public int range;
-        public int fireRate;
+        public float range;
+        public float fireRate;
 
         public int projectilesPerShot;
         public float spreadAngle;
