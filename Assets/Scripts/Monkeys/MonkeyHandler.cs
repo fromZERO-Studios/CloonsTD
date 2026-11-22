@@ -30,7 +30,7 @@ namespace CloonsTD {
             while (true) {
                 if (_target != null) {
                     var projectile = PoolManager.Spawn(_data.projectilePrefab, transform.position, transform.rotation);
-                    projectile.Init(_data.damage, _data.pierce, _data.projectileSpeed);
+                    projectile.Init(_data.damage, _data.pierce, _data.projectileSpeed, _data.range);
                 }
                 yield return new WaitForSeconds(1f / _data.fireRate);
             }

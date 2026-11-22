@@ -10,6 +10,7 @@ namespace CloonsTD {
         protected int _maxPierceCount;
         protected int _currentPierceCount;
         protected float _speed;
+        protected float _range;
 
         protected Rigidbody2D _rigidbody;
         protected Collider2D _collider;
@@ -19,10 +20,11 @@ namespace CloonsTD {
             _collider = GetComponent<Collider2D>();
         }
 
-        public void Init(float damange, int maxPierceCount, float projectileSpeed) {
+        public void Init(float damange, int maxPierceCount, float projectileSpeed, float range) {
             _damage = damange;
             _maxPierceCount = maxPierceCount;
             _speed = projectileSpeed;
+            _range = range;
             Launch();
         }
 
