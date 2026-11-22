@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,25 +7,42 @@ namespace CloonsTD {
 
     [RequireComponent(typeof(CircleCollider2D))]
     public class MonkeyHandler : MonoBehaviour {
-        private static WaitForSeconds _waitForSeconds0_1 = new WaitForSeconds(0.1f);
 
         private const string TARGET_TAG = "Cloon";
 
         private readonly List<Transform> inRange = new();
         private CircleCollider2D _bloonCollider;
 
+        [SerializeField]
+        private MonkeyData _data;
+
         private Transform _target;
 
         private void LookAt2D(Transform target) {
-            print("LookAt2D: " + target.name);
+            // print("LookAt2D: " + target.name);
             // transform.LookAt only works in 3D
             var direction = target.position - transform.position;
             var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // get the angle and convert it from radians to degrees
             transform.rotation = Quaternion.Euler(0, 0, angle);
         }
 
+        IEnumerator Shoot() {
+            while (true) {
+                if (_target != null) {
+                    var projectile = PoolManager.Spawn(_data.projectilePrefab, transform.position, transform.rotation);
+                    projectile.Init(_data.damage, _data.pierce, _data.projectileSpeed);
+                }
+                yield return new WaitForSeconds(1f / _data.fireRate);
+            }
+        }
+
         private void Awake() {
             _bloonCollider = GetComponent<CircleCollider2D>();
+            _bloonCollider.radius = _data.range;
+        }
+
+        private void Start() {
+            StartCoroutine(Shoot());
         }
 
         private void Update() {
@@ -49,6 +67,14 @@ namespace CloonsTD {
             inRange.Remove(other.transform);
             if (other.transform == _target) _target = null;
         }
+
+#if UNITY_EDITOR
+        private void OnDrawGizmosSelected() {
+            if (_data == null) return;
+            UnityEditor.Handles.color = new Color(1f, 0f, 0f, 0.05f);
+            UnityEditor.Handles.DrawSolidDisc(transform.position, Vector3.forward, _data.range);
+        }
+#endif
 
     }
 };
