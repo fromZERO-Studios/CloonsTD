@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: TackShooter
   m_EditorClassIdentifier: Assembly-CSharp::CloonsTD.MonkeyData
   projectilePrefab: {fileID: 0}
-  range: 0
-  fireRate: 0
-  projectilesPerShot: 0
-  spreadAngle: 0
+  damage: 1
+  pierce: 1
+  projectileSpeed: 12
+  range: 1.8
+  fireRate: 0.7
+  projectilesPerShot: 8
+  spreadAngle: 360
   aimsAtTarget: 0

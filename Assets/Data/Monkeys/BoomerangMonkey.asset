@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54af826f80c96f4dadc9ea9b2e28799, type: 3}
   m_Name: BoomerangMonkey
   m_EditorClassIdentifier: Assembly-CSharp::CloonsTD.MonkeyData
-  projectilePrefab: {fileID: 0}
-  range: 0
-  fireRate: 0
-  projectilesPerShot: 0
+  projectilePrefab: {fileID: 989209475841150289, guid: 156faf977da591b4a8381e8a045a3003, type: 3}
+  damage: 1
+  pierce: 4
+  projectileSpeed: 8
+  range: 3.3
+  fireRate: 0.8
+  projectilesPerShot: 1
   spreadAngle: 0
-  aimsAtTarget: 0
+  aimsAtTarget: 1

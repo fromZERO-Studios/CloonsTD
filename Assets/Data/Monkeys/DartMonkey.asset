@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54af826f80c96f4dadc9ea9b2e28799, type: 3}
   m_Name: DartMonkey
   m_EditorClassIdentifier: Assembly-CSharp::CloonsTD.MonkeyData
-  projectilePrefab: {fileID: 0}
-  range: 0
-  fireRate: 0
-  projectilesPerShot: 0
+  projectilePrefab: {fileID: 7945167966752405365, guid: 60a8ff5f1b511f34ea1f239a250f6176, type: 3}
+  damage: 1
+  pierce: 1
+  projectileSpeed: 15
+  range: 2.5
+  fireRate: 1.05
+  projectilesPerShot: 1
   spreadAngle: 0
-  aimsAtTarget: 0
+  aimsAtTarget: 1
