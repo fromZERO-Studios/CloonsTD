@@ -16,6 +16,6 @@ MonoBehaviour:
   prefab: {fileID: 7574029578144598068, guid: 2c1955a21a91ed049b54dba0cd7418e8, type: 3}
   scale: {x: 2, y: 2, z: 1}
   maxHealth: 2
-  speed: 1
+  speed: 1.5
   cashReward: 2
   childrenOnPop: []
