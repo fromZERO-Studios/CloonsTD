@@ -46,18 +46,10 @@ namespace CloonsTD {
             float step = movespeed * Time.fixedDeltaTime;
             Vector2 currentPos = rb.position;
             Vector2 targetPos = checkpoint.position;
-
-            
-            Vector2 direction = (targetPos - currentPos).normalized;
-            if (direction != Vector2.zero) {
-                transform.right = direction;
-            }
-
             
             Vector2 nextPos = Vector2.MoveTowards(currentPos, targetPos, step);
             rb.MovePosition(nextPos);
             distanceTraveled += Vector2.Distance(currentPos, nextPos);
-
             
             if (Vector2.Distance(nextPos, targetPos) <= 0.01f) {
                 index++;

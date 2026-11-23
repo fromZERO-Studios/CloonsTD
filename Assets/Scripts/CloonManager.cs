@@ -20,9 +20,7 @@ namespace CloonsTD {
         }
 
         private void Update() {
-            if (Input.GetKeyDown(KeyCode.Space) && testCloonData != null) {
-                SpawnCloon(testCloonData);
-            }
+            
         }
 
         public void SpawnCloon(CloonData cloonData) {

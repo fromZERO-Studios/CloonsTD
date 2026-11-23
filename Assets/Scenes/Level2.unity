@@ -1923,6 +1923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1776688419}
   - component: {fileID: 1776688418}
+  - component: {fileID: 1776688420}
   m_Layer: 0
   m_Name: CloonManager
   m_TagString: Untagged
@@ -2003,6 +2004,7 @@ MonoBehaviour:
   - {fileID: 207689838}
   - {fileID: 1077731095}
   - {fileID: 1400307288}
+  testCloonData: {fileID: 11400000, guid: b6e9c8884ce722d438e92a3bffcfa106, type: 2}
 --- !u!4 &1776688419
 Transform:
   m_ObjectHideFlags: 0
@@ -2018,6 +2020,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1776688420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776688417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc000cb324ca3cb4c8cd5b989e95eac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CloonsTD.PoolManager
 --- !u!4 &1802962799 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
