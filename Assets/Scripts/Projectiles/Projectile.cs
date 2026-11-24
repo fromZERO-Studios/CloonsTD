@@ -20,11 +20,11 @@ namespace CloonsTD {
             _collider = GetComponent<Collider2D>();
         }
 
-        public void Init(float damange, int maxPierceCount, float projectileSpeed, float range) {
-            _damage = damange;
-            _maxPierceCount = maxPierceCount;
-            _speed = projectileSpeed;
-            _range = range;
+        public void Init(MonkeyStats stats) {
+            _damage = stats.damage;
+            _maxPierceCount = stats.pierce;
+            _speed = stats.projectileSpeed;
+            _range = stats.range;
             Launch();
         }
 

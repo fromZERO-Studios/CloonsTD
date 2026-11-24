@@ -2,10 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 namespace CloonsTD {
-
     [RequireComponent(typeof(CircleCollider2D))]
+
+    [RequireComponent(typeof(SpriteRenderer))]
     public class MonkeyHandler : MonoBehaviour {
 
         private const string TARGET_TAG = "Cloon";
@@ -16,7 +18,16 @@ namespace CloonsTD {
         [SerializeField]
         private MonkeyData _data;
 
+        private SpriteRenderer _spriteRenderer;
+
+        private MonkeyStats _stats;
+        private int _upgradeLevel;
+
         private Transform _target;
+
+        public bool CanUpgrade => _upgradeLevel < _data.upgrades.Length;
+        public MonkeyUpgrade? NextUpgrade => CanUpgrade ? _data.upgrades[_upgradeLevel] : null;
+
 
         private void LookAt2D(Transform target) {
             // print("LookAt2D: " + target.name);
@@ -30,15 +41,48 @@ namespace CloonsTD {
             while (true) {
                 if (_target != null) {
                     var projectile = PoolManager.Spawn(_data.projectilePrefab, transform.position, transform.rotation);
-                    projectile.Init(_data.damage, _data.pierce, _data.projectileSpeed, _data.range);
+                    projectile.Init(_stats);
                 }
                 yield return new WaitForSeconds(1f / _data.fireRate);
             }
         }
 
         private void Awake() {
+            _stats = new MonkeyStats {
+                projectilePrefab = _data.projectilePrefab,
+                damage = _data.damage,
+                pierce = _data.pierce,
+                projectileSpeed = _data.projectileSpeed,
+                range = _data.range,
+                fireRate = _data.fireRate
+            };
             _bloonCollider = GetComponent<CircleCollider2D>();
             _bloonCollider.radius = _data.range;
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+
+        public void Upgrade(MonkeyUpgrade upgrade) {
+            if (!CanUpgrade) {
+                print($"Can't upgrade monkey {name}");
+                return;
+            }
+
+            var newUpgrade = _data.upgrades[_upgradeLevel];
+
+            _stats.damage += newUpgrade.damageBonus;
+            _stats.pierce += newUpgrade.pierceBonus;
+            _stats.range += newUpgrade.rangeBonus;
+            _stats.fireRate *= newUpgrade.fireRateMultiplier;
+
+            if (upgrade.projectilePrefabOverride != null) {
+                _stats.projectilePrefab = upgrade.projectilePrefabOverride;
+            }
+
+            if (upgrade.spriteOverride != null) {
+                _spriteRenderer.sprite = upgrade.spriteOverride;
+            }
+
+            _bloonCollider.radius = _stats.range;
         }
 
         private void Start() {

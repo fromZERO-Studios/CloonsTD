@@ -15,5 +15,6 @@ namespace CloonsTD {
         public float spreadAngle;
 
         public bool aimsAtTarget;
+        public MonkeyUpgrade[] upgrades;
     }
 }
