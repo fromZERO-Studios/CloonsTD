@@ -305,68 +305,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1398043552}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &328744934
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1037639941}
-    m_Modifications:
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5880780584945626126, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-      propertyPath: m_Name
-      value: RedCloon
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
---- !u!4 &328744935 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1824969268213768267, guid: 47d17cb36c167964eb2358117ace0510, type: 3}
-  m_PrefabInstance: {fileID: 328744934}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &460256740
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,38 +812,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!1 &1037639940
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1037639941}
-  m_Layer: 0
-  m_Name: Cloons
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1037639941
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1037639940}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.30745, y: 1.25153, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 328744935}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1073695416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,8 +1236,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2738a1b6ec30a344973df27e06c656a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CloonsTD.CloonManager
-  checkpoints: []
-  testCloonData: {fileID: 0}
+  checkpoints:
+  - {fileID: 1798223380}
+  - {fileID: 1073695417}
+  - {fileID: 1757815734}
+  - {fileID: 1250928795}
+  - {fileID: 1981093620}
+  - {fileID: 92755947}
+  - {fileID: 476561800}
+  - {fileID: 668167854}
+  - {fileID: 1478846602}
+  - {fileID: 1910310030}
+  - {fileID: 1605145701}
+  - {fileID: 506213557}
+  - {fileID: 1137525661}
+  - {fileID: 1660523721}
+  - {fileID: 1939233528}
+  - {fileID: 1595954067}
+  - {fileID: 505935446}
+  - {fileID: 2093852276}
+  - {fileID: 2115653658}
+  - {fileID: 1854269556}
+  - {fileID: 2058553209}
+  - {fileID: 242324630}
+  - {fileID: 1306241681}
+  - {fileID: 561425040}
+  - {fileID: 1087802392}
+  - {fileID: 295325297}
+  - {fileID: 460256741}
+  - {fileID: 830084990}
+  - {fileID: 1496384922}
+  - {fileID: 1938767424}
+  - {fileID: 1743366909}
+  - {fileID: 1265920745}
+  - {fileID: 1453293927}
+  - {fileID: 849664709}
+  - {fileID: 594671635}
+  - {fileID: 2068633435}
+  - {fileID: 97264245}
+  - {fileID: 5382859}
+  - {fileID: 264955365}
+  testCloonData: {fileID: 11400000, guid: 06d0f0c919e802c4d9dcc78651dcd6d9, type: 2}
 --- !u!4 &1502729188
 Transform:
   m_ObjectHideFlags: 0
@@ -1819,4 +1764,3 @@ SceneRoots:
   - {fileID: 971488339}
   - {fileID: 1173455420}
   - {fileID: 1502729188}
-  - {fileID: 1037639941}

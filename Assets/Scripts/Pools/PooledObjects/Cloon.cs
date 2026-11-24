@@ -33,9 +33,9 @@ namespace CloonsTD {
             if (CloonManager.main != null && CloonManager.main.checkpoints.Length > 0) {
                 index = Mathf.Clamp(startCheckpointIndex, 0, CloonManager.main.checkpoints.Length - 1);
                 checkpoint = CloonManager.main.checkpoints[index];
-
                 if (startCheckpointIndex == 0 && startDistance == 0f) {
                     transform.position = checkpoint.position;
+                    if (rb != null) rb.position = checkpoint.position;
                 }
             }
         }
@@ -50,6 +50,7 @@ namespace CloonsTD {
             Vector2 nextPos = Vector2.MoveTowards(currentPos, targetPos, step);
             rb.MovePosition(nextPos);
             distanceTraveled += Vector2.Distance(currentPos, nextPos);
+
             
             if (Vector2.Distance(nextPos, targetPos) <= 0.01f) {
                 index++;
