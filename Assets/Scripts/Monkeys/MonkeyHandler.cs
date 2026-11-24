@@ -39,20 +39,33 @@ namespace CloonsTD {
 
         IEnumerator Shoot() {
             while (true) {
-                if (_target != null) {
-                    var projectile = PoolManager.Spawn(_data.projectilePrefab, transform.position, transform.rotation);
-                    projectile.Init(_stats);
-                }
-                yield return new WaitForSeconds(1f / _data.fireRate);
+                if (_target != null) FireVolley();
+                yield return new WaitForSeconds(1f / _stats.fireRate);
+            }
+        }
+
+        private void FireVolley() {
+            var count = _data.projectilesPerShot;
+            var isFullCircle = _data.spreadAngle >= 360f;
+            // A full circle has no edges, so divide by count to avoid stacking the first and last shot.
+            var step = count <= 1 ? 0f : _data.spreadAngle / (isFullCircle ? count : count - 1);
+            var startAngle = isFullCircle ? 0f : -_data.spreadAngle / 2f;
+
+            for (var i = 0; i < count; i++) {
+                var rotation = transform.rotation * Quaternion.Euler(0, 0, startAngle + step * i);
+                var projectile = PoolManager.Spawn(_stats.projectilePrefab, transform.position, rotation);
+                projectile.Init(_stats);
             }
         }
 
         private void Awake() {
             _stats = new MonkeyStats {
                 projectilePrefab = _data.projectilePrefab,
+                projectileSpeed = _data.projectileSpeed,
+                destroyProjectileOnRangeExit = _data.destroyProjectileOnRangeExit,
+
                 damage = _data.damage,
                 pierce = _data.pierce,
-                projectileSpeed = _data.projectileSpeed,
                 range = _data.range,
                 fireRate = _data.fireRate
             };
@@ -95,7 +108,7 @@ namespace CloonsTD {
                 _target = inRange.Count > 0 ? inRange[0] : null; // try to get a new target if we don't have one
             }
 
-            if (_target == null) return;
+            if (_target == null || !_data.aimsAtTarget) return;
 
             LookAt2D(_target);
         }

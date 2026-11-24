@@ -6,6 +6,7 @@ namespace CloonsTD {
     public struct MonkeyStats {
         public Projectile projectilePrefab;
         public float projectileSpeed;
+        public bool destroyProjectileOnRangeExit;
 
         public float damage;
         public int pierce;

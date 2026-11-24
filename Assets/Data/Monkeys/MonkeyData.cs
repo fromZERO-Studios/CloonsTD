@@ -6,7 +6,9 @@ namespace CloonsTD {
         public Projectile projectilePrefab;
         public float damage;
         public int pierce;
+
         public float projectileSpeed;
+        public bool destroyProjectileOnRangeExit;
 
         public float range;
         public float fireRate;

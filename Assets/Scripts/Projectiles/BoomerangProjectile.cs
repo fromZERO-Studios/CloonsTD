@@ -16,7 +16,7 @@ namespace CloonsTD {
             _elapsed = 0f;
         }
 
-        private void FixedUpdate() {
+        protected override void FixedUpdate() {
             _elapsed += Time.fixedDeltaTime;
             if (_elapsed >= _flightDuration) {
                 Release();
@@ -25,6 +25,8 @@ namespace CloonsTD {
 
             var progress = Mathf.Sin(_elapsed / _flightDuration * Mathf.PI); // math magic for slowing down at the tip and speeding up on the way back
             _rigidbody.MovePosition(Vector2.Lerp(_start, _tip, progress));
+
+            base.FixedUpdate();
         }
     }
 }
