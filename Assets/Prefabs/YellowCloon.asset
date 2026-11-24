@@ -18,4 +18,6 @@ MonoBehaviour:
   maxHealth: 4
   speed: 2.5
   cashReward: 4
-  childrenOnPop: []
+  childrenOnPop:
+  - cloonData: {fileID: 11400000, guid: 8fa96fb4993e1194691cc385531ecfb0, type: 2}
+    count: 1
