@@ -5,22 +5,13 @@ using UnityEngine;
 public class SaveSystem : MonoBehaviour {
     public static SaveSystem Instance { get; private set; }
 
-    private int _round;
-    private int _level;
+    [Header("Reference to Scriptable Object")] [SerializeField]
+    private SaveData _saveData;
+    
     private string _saveFilePath;
 
-    public int CurrentRound => _round;
-    public int CurrentLevel => _level;
-
-    public Action<int> OnLevelStart = delegate { };
-    public Action<int> OnRoundStarted = delegate { };
-    public Action<int> OnRoundFinished = delegate { };
-    
-    [Serializable]
-    private struct SaveData {
-        public int round;
-        public int level;
-    }
+    public int CurrentRound => _saveData.currentData.round;
+    public int CurrentLevel => _saveData.currentData.level;
     
     private void Awake() {
         if (Instance != null && Instance != this) {
@@ -33,50 +24,40 @@ public class SaveSystem : MonoBehaviour {
 
         _saveFilePath = Path.Combine(Application.persistentDataPath, "savedata.json");
 
-        LoadGame();
+        //LoadGame();
 
-        OnLevelStart += LevelChanged;
-        OnRoundFinished += RoundFinished;
+        _saveData.OnLevelStart += HandleLevelChanged;
+        _saveData.OnRoundFinished += HandleRoundFinished;
     }
 
     private void OnDestroy() {
         if (Instance != this) return;
-        OnLevelStart -= LevelChanged;
-        OnRoundFinished -= RoundFinished;
+        _saveData.OnLevelStart -= HandleLevelChanged;
+        _saveData.OnRoundFinished -= HandleRoundFinished;
     }
 
-    private void LevelChanged(int newLevel) {
-        if (_level > newLevel) return;
-        _level = newLevel;
+    private void HandleLevelChanged(int newLevel) {
+        _saveData.UpdateLevel(newLevel);
         SaveGame();
     }
 
-    private void RoundFinished(int newRound) {
-        if (_round > newRound) return;
-        _round = newRound;
+    private void HandleRoundFinished(int newRound) {
+        _saveData.UpdateRound(newRound);
         SaveGame();
     }
 
     public void SaveGame() {
-        var data = new SaveData {
-            round = _round,
-            level = _level
-        };
-        var json = JsonUtility.ToJson(data, true);
+        string json = JsonUtility.ToJson(_saveData.currentData, true);
         File.WriteAllText(_saveFilePath, json);
     }
 
     public void LoadGame() {
         if (!File.Exists(_saveFilePath)) {
-            _round = 1;
-            _level = 1;
+            _saveData.ResetData();
             return;
         }
 
         var json = File.ReadAllText(_saveFilePath);
-        var data = JsonUtility.FromJson<SaveData>(json);
-
-        _round = data.round;
-        _level = data.level;
+        _saveData.currentData = JsonUtility.FromJson<SaveData.GameSaveStruct>(json);
     }
 }
