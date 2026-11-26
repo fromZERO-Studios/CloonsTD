@@ -117,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -169,12 +169,12 @@ TextureImporter:
       name: DartMonkeyLvl6_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 250
-        width: 76
-        height: 75
+        x: 0
+        y: 245
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: DartMonkeyLvl6_1
       rect:
         serializedVersion: 2
-        x: 134
-        y: 250
-        width: 76
-        height: 75
+        x: 126
+        y: 245
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: DartMonkeyLvl6_2
       rect:
         serializedVersion: 2
-        x: 260
-        y: 250
-        width: 112
-        height: 75
+        x: 252
+        y: 245
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: DartMonkeyLvl6_3
       rect:
         serializedVersion: 2
-        x: 392
-        y: 250
-        width: 112
-        height: 75
+        x: 378
+        y: 245
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: DartMonkeyLvl6_4
       rect:
         serializedVersion: 2
-        x: 519
-        y: 250
-        width: 112
-        height: 75
+        x: 504
+        y: 245
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: DartMonkeyLvl6_5
       rect:
         serializedVersion: 2
-        x: 646
-        y: 250
-        width: 111
-        height: 75
+        x: 630
+        y: 245
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,12 +301,12 @@ TextureImporter:
       name: DartMonkeyLvl6_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 167
-        width: 111
-        height: 75
+        x: 0
+        y: 164
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -323,12 +323,12 @@ TextureImporter:
       name: DartMonkeyLvl6_7
       rect:
         serializedVersion: 2
-        x: 142
-        y: 167
-        width: 111
-        height: 75
+        x: 126
+        y: 164
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -345,12 +345,12 @@ TextureImporter:
       name: DartMonkeyLvl6_8
       rect:
         serializedVersion: 2
-        x: 268
-        y: 167
-        width: 111
-        height: 75
+        x: 252
+        y: 164
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -367,12 +367,12 @@ TextureImporter:
       name: DartMonkeyLvl6_9
       rect:
         serializedVersion: 2
-        x: 394
-        y: 167
-        width: 111
-        height: 75
+        x: 378
+        y: 164
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -389,12 +389,12 @@ TextureImporter:
       name: DartMonkeyLvl6_10
       rect:
         serializedVersion: 2
-        x: 520
-        y: 167
-        width: 111
-        height: 75
+        x: 504
+        y: 164
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -411,12 +411,12 @@ TextureImporter:
       name: DartMonkeyLvl6_11
       rect:
         serializedVersion: 2
-        x: 646
-        y: 167
-        width: 111
-        height: 75
+        x: 630
+        y: 164
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -433,12 +433,12 @@ TextureImporter:
       name: DartMonkeyLvl6_12
       rect:
         serializedVersion: 2
-        x: 13
-        y: 84
-        width: 76
-        height: 75
+        x: 0
+        y: 83
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -455,12 +455,12 @@ TextureImporter:
       name: DartMonkeyLvl6_13
       rect:
         serializedVersion: 2
-        x: 137
-        y: 84
-        width: 76
-        height: 74
+        x: 126
+        y: 83
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -477,12 +477,12 @@ TextureImporter:
       name: DartMonkeyLvl6_14
       rect:
         serializedVersion: 2
-        x: 262
-        y: 84
-        width: 74
-        height: 73
+        x: 252
+        y: 83
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: DartMonkeyLvl6_15
       rect:
         serializedVersion: 2
-        x: 389
-        y: 84
-        width: 73
-        height: 72
+        x: 378
+        y: 83
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -521,12 +521,12 @@ TextureImporter:
       name: DartMonkeyLvl6_16
       rect:
         serializedVersion: 2
-        x: 515
-        y: 84
-        width: 73
-        height: 71
+        x: 504
+        y: 83
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -543,12 +543,12 @@ TextureImporter:
       name: DartMonkeyLvl6_17
       rect:
         serializedVersion: 2
-        x: 641
-        y: 84
-        width: 73
-        height: 71
+        x: 630
+        y: 83
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -565,12 +565,12 @@ TextureImporter:
       name: DartMonkeyLvl6_18
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1
-        width: 73
-        height: 72
+        x: 0
+        y: 2
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -587,12 +587,12 @@ TextureImporter:
       name: DartMonkeyLvl6_19
       rect:
         serializedVersion: 2
-        x: 137
-        y: 1
-        width: 73
-        height: 70
+        x: 126
+        y: 2
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -609,12 +609,12 @@ TextureImporter:
       name: DartMonkeyLvl6_20
       rect:
         serializedVersion: 2
-        x: 263
-        y: 1
-        width: 73
-        height: 72
+        x: 252
+        y: 2
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -631,12 +631,12 @@ TextureImporter:
       name: DartMonkeyLvl6_21
       rect:
         serializedVersion: 2
-        x: 387
-        y: 1
-        width: 75
-        height: 74
+        x: 378
+        y: 2
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -653,12 +653,12 @@ TextureImporter:
       name: DartMonkeyLvl6_22
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1
-        width: 76
-        height: 75
+        x: 504
+        y: 2
+        width: 126
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

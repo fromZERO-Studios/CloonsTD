@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -160,12 +160,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 62
-        width: 55
-        height: 55
+        x: 0
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_1
       rect:
         serializedVersion: 2
-        x: 57
-        y: 62
-        width: 55
-        height: 55
+        x: 56
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 68
-        width: 50
-        height: 49
+        x: 112
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_3
       rect:
         serializedVersion: 2
-        x: 169
-        y: 68
-        width: 51
-        height: 49
+        x: 168
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_4
       rect:
         serializedVersion: 2
-        x: 225
-        y: 68
-        width: 51
-        height: 49
+        x: 224
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_5
       rect:
         serializedVersion: 2
-        x: 281
-        y: 68
-        width: 52
-        height: 49
+        x: 280
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_6
       rect:
         serializedVersion: 2
-        x: 337
-        y: 68
-        width: 53
-        height: 49
+        x: 336
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_7
       rect:
         serializedVersion: 2
-        x: 393
-        y: 68
-        width: 53
-        height: 49
+        x: 392
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_8
       rect:
         serializedVersion: 2
-        x: 449
-        y: 65
-        width: 53
-        height: 52
+        x: 448
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_9
       rect:
         serializedVersion: 2
-        x: 505
-        y: 62
-        width: 55
-        height: 55
+        x: 504
+        y: 59
+        width: 56
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_10
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 66
-        height: 60
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_11
       rect:
         serializedVersion: 2
-        x: 72
+        x: 70
         y: 0
-        width: 66
-        height: 60
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_12
       rect:
         serializedVersion: 2
-        x: 143
-        y: 11
-        width: 50
-        height: 49
+        x: 140
+        y: 0
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_13
       rect:
         serializedVersion: 2
-        x: 214
-        y: 11
-        width: 51
-        height: 49
+        x: 210
+        y: 0
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_14
       rect:
         serializedVersion: 2
-        x: 285
-        y: 11
-        width: 51
-        height: 49
+        x: 280
+        y: 0
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,12 +490,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_15
       rect:
         serializedVersion: 2
-        x: 356
-        y: 11
-        width: 52
-        height: 49
+        x: 350
+        y: 0
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_16
       rect:
         serializedVersion: 2
-        x: 427
-        y: 11
-        width: 53
-        height: 49
+        x: 420
+        y: 0
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -534,12 +534,12 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_17
       rect:
         serializedVersion: 2
-        x: 498
-        y: 11
-        width: 53
-        height: 49
+        x: 490
+        y: 0
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,20 +556,20 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_18
       rect:
         serializedVersion: 2
-        x: 569
-        y: 7
-        width: 55
-        height: 53
+        x: 560
+        y: 0
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0d38531cf329c4e0800000000000000
-      internalID: -1960996597179859701
+      spriteID: 82093b29c3a9cf7fc7139eb972ef3748
+      internalID: 4499819611221573398
       vertices: []
       indices: 
       edges: []
@@ -578,20 +578,20 @@ TextureImporter:
       name: BoomerangMonkeyLvl7_19
       rect:
         serializedVersion: 2
-        x: 640
+        x: 630
         y: 0
-        width: 66
-        height: 60
+        width: 70
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78c25c1a9a3cf9930800000000000000
-      internalID: 4152252514789829767
+      spriteID: 31b1fedf89e91250ddc614d9be450888
+      internalID: 739466755935359282
       vertices: []
       indices: 
       edges: []
@@ -620,8 +620,8 @@ TextureImporter:
       BoomerangMonkeyLvl7_15: -7181632065409084725
       BoomerangMonkeyLvl7_16: 2454048811358312555
       BoomerangMonkeyLvl7_17: -5878071970420950051
-      BoomerangMonkeyLvl7_18: -1960996597179859701
-      BoomerangMonkeyLvl7_19: 4152252514789829767
+      BoomerangMonkeyLvl7_18: 4499819611221573398
+      BoomerangMonkeyLvl7_19: 739466755935359282
       BoomerangMonkeyLvl7_2: 6204836812035083956
       BoomerangMonkeyLvl7_3: 8117852681273955154
       BoomerangMonkeyLvl7_4: -4040026020892724785
