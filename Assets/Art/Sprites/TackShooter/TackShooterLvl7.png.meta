@@ -149,11 +149,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 59
-        width: 54
-        height: 53
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,12 +170,12 @@ TextureImporter:
       name: TackShooterLvl7_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 59
-        width: 53
-        height: 53
+        x: 57
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: TackShooterLvl7_2
       rect:
         serializedVersion: 2
-        x: 117
-        y: 60
-        width: 53
-        height: 52
+        x: 114
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: TackShooterLvl7_3
       rect:
         serializedVersion: 2
-        x: 174
-        y: 59
-        width: 54
-        height: 54
+        x: 171
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: TackShooterLvl7_4
       rect:
         serializedVersion: 2
-        x: 233
-        y: 59
-        width: 53
-        height: 53
+        x: 228
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: TackShooterLvl7_5
       rect:
         serializedVersion: 2
-        x: 291
-        y: 59
-        width: 53
-        height: 53
+        x: 285
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +280,12 @@ TextureImporter:
       name: TackShooterLvl7_6
       rect:
         serializedVersion: 2
-        x: 349
-        y: 59
-        width: 53
-        height: 53
+        x: 342
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: TackShooterLvl7_7
       rect:
         serializedVersion: 2
-        x: 407
-        y: 59
-        width: 53
-        height: 53
+        x: 399
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: TackShooterLvl7_8
       rect:
         serializedVersion: 2
-        x: 465
-        y: 60
-        width: 52
-        height: 52
+        x: 456
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: TackShooterLvl7_9
       rect:
         serializedVersion: 2
-        x: 523
-        y: 59
-        width: 53
-        height: 53
+        x: 513
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: TackShooterLvl7_10
       rect:
         serializedVersion: 2
-        x: 581
-        y: 59
-        width: 53
-        height: 53
+        x: 570
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +390,12 @@ TextureImporter:
       name: TackShooterLvl7_11
       rect:
         serializedVersion: 2
-        x: 639
-        y: 59
-        width: 53
-        height: 53
+        x: 627
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +412,12 @@ TextureImporter:
       name: TackShooterLvl7_12
       rect:
         serializedVersion: 2
-        x: 696
-        y: 59
-        width: 54
-        height: 54
+        x: 684
+        y: 57
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,12 +434,12 @@ TextureImporter:
       name: TackShooterLvl7_13
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 52
-        height: 52
+        x: 0
+        y: 1
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: TackShooterLvl7_14
       rect:
         serializedVersion: 2
-        x: 59
+        x: 57
         y: 1
-        width: 53
-        height: 53
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: TackShooterLvl7_15
       rect:
         serializedVersion: 2
-        x: 116
+        x: 114
         y: 1
-        width: 54
-        height: 53
+        width: 57
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

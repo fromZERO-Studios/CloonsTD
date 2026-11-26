@@ -127,12 +127,12 @@ TextureImporter:
       name: TackShooterLvl2_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 0
+        y: 0
         width: 52
-        height: 52
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,12 +149,12 @@ TextureImporter:
       name: TackShooterLvl2_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 1
+        x: 52
+        y: 0
         width: 52
-        height: 52
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: TackShooterLvl2_2
       rect:
         serializedVersion: 2
-        x: 106
-        y: 2
-        width: 50
-        height: 50
+        x: 104
+        y: 0
+        width: 52
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: TackShooterLvl2_3
       rect:
         serializedVersion: 2
-        x: 159
-        y: 3
-        width: 48
-        height: 48
+        x: 156
+        y: 0
+        width: 52
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: TackShooterLvl2_4
       rect:
         serializedVersion: 2
-        x: 211
-        y: 3
-        width: 48
-        height: 47
+        x: 208
+        y: 0
+        width: 52
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: TackShooterLvl2_5
       rect:
         serializedVersion: 2
-        x: 263
-        y: 3
-        width: 48
-        height: 48
+        x: 260
+        y: 0
+        width: 52
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +259,12 @@ TextureImporter:
       name: TackShooterLvl2_6
       rect:
         serializedVersion: 2
-        x: 314
-        y: 2
-        width: 50
-        height: 50
+        x: 312
+        y: 0
+        width: 52
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: TackShooterLvl2_7
       rect:
         serializedVersion: 2
-        x: 365
-        y: 1
+        x: 364
+        y: 0
         width: 52
-        height: 52
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: TackShooterLvl2_8
       rect:
         serializedVersion: 2
-        x: 417
-        y: 1
+        x: 416
+        y: 0
         width: 52
-        height: 52
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
