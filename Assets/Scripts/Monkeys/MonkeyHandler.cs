@@ -74,18 +74,20 @@ namespace CloonsTD {
             _spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
-        public void Upgrade(MonkeyUpgrade upgrade) {
+        [ContextMenu("Upgrade")]
+        public void Upgrade() {
             if (!CanUpgrade) {
                 print($"Can't upgrade monkey {name}");
                 return;
             }
 
-            var newUpgrade = _data.upgrades[_upgradeLevel];
+            var upgrade = _data.upgrades[_upgradeLevel];
+            _upgradeLevel++;
 
-            _stats.damage += newUpgrade.damageBonus;
-            _stats.pierce += newUpgrade.pierceBonus;
-            _stats.range += newUpgrade.rangeBonus;
-            _stats.fireRate *= newUpgrade.fireRateMultiplier;
+            _stats.damage += upgrade.damageBonus;
+            _stats.pierce += upgrade.pierceBonus;
+            _stats.range += upgrade.rangeBonus;
+            _stats.fireRate *= upgrade.fireRateMultiplier;
 
             if (upgrade.projectilePrefabOverride != null) {
                 _stats.projectilePrefab = upgrade.projectilePrefabOverride;
