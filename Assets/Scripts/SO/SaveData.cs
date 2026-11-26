@@ -8,6 +8,7 @@ public class SaveData : ScriptableObject
     public struct GameSaveStruct {
         public int round;
         public int level;
+        public bool isVictory;
     }
 
     public GameSaveStruct currentData;
@@ -23,7 +24,8 @@ public class SaveData : ScriptableObject
     public void ResetData() {
         currentData = new GameSaveStruct {
             round = 1,
-            level = 1
+            level = 1,
+            isVictory = false
         };
     }
     

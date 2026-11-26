@@ -1,5 +1,4 @@
 using System;
-using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
@@ -7,8 +6,15 @@ using UnityEngine.SceneManagement;
 namespace CloonsTD {
     public class UIMainMenu : MonoBehaviour {
         [SerializeField] private AudioMixer _audioMixer;
+        [SerializeField] private SaveData _saveData;
         
         public void PlayGame() {
+            // Reiniciamos los datos por si venimos de una partida anterior
+            _saveData.ResetData();
+            
+            // Lanzamos el evento directamente desde el ScriptableObject
+            _saveData.OnLevelStart?.Invoke(1);
+            
             SceneManager.LoadScene("Level1");
         }
 
@@ -21,6 +27,5 @@ namespace CloonsTD {
         }
         
         // TODO: AudioMixer
-        // TODO: Reset counts of scores, etc.
     }   
 }
