@@ -50,7 +50,7 @@ public class SaveSystem : MonoBehaviour {
 
     public bool SaveGame() {
         try {
-            string json = JsonUtility.ToJson(_saveData.currentData, true);
+            var json = JsonUtility.ToJson(_saveData.currentData, true);
             File.WriteAllText(_saveFilePath, json);
             return true;
         }

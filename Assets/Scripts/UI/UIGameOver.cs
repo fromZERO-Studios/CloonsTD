@@ -28,6 +28,7 @@ namespace CloonsTD{
             var round = _saveData.currentData.round;
             var isVictory = _saveData.currentData.isVictory;
             
+            
 
             _roundCounter.text = $"Level: {level}, Round: {round}";
             
@@ -57,6 +58,7 @@ namespace CloonsTD{
         public void RetryLevel() {
             var currentLevel = _saveData.currentData.level;
             
+            _saveData.currentData.round = 1;
             _saveData.OnLevelStart?.Invoke(currentLevel);
             SceneManager.LoadScene($"Level{currentLevel}");
         }
