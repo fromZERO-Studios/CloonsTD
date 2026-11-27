@@ -9,6 +9,8 @@ public class SaveSystem : MonoBehaviour {
     private SaveData _saveData;
     
     private string _saveFilePath;
+    
+    public event Action<string> OnSaveFailed;
 
     public int CurrentRound => _saveData.currentData.round;
     public int CurrentLevel => _saveData.currentData.level;
@@ -46,9 +48,17 @@ public class SaveSystem : MonoBehaviour {
         SaveGame();
     }
 
-    public void SaveGame() {
-        string json = JsonUtility.ToJson(_saveData.currentData, true);
-        File.WriteAllText(_saveFilePath, json);
+    public bool SaveGame() {
+        try {
+            string json = JsonUtility.ToJson(_saveData.currentData, true);
+            File.WriteAllText(_saveFilePath, json);
+            return true;
+        }
+        catch (Exception ex) when (ex is IOException || ex is UnauthorizedAccessException) {
+            Debug.LogError($"[SaveSystem] Error saving the game in {_saveFilePath}: {ex.Message}");
+            OnSaveFailed?.Invoke("Progress couldn't be saved. Check the space or permissions on your disc.");
+            return false;
+        }
     }
 
     public void LoadGame() {
@@ -57,7 +67,13 @@ public class SaveSystem : MonoBehaviour {
             return;
         }
 
-        var json = File.ReadAllText(_saveFilePath);
-        _saveData.currentData = JsonUtility.FromJson<SaveData.GameSaveStruct>(json);
+        try {
+            var json = File.ReadAllText(_saveFilePath);
+            _saveData.currentData = JsonUtility.FromJson<SaveData.GameSaveStruct>(json);
+        }
+        catch (Exception ex) when (ex is IOException || ex is UnauthorizedAccessException) {
+            Debug.LogError($"[SaveSystem] Error reading save file: {ex.Message}");
+            _saveData.ResetData();
+        }
     }
 }

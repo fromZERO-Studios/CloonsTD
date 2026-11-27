@@ -515,7 +515,7 @@ GameObject:
   - component: {fileID: 610071832}
   - component: {fileID: 610071831}
   m_Layer: 5
-  m_Name: BackButton (1)
+  m_Name: RetryButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -584,7 +584,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 610071832}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2039642406}
+        m_TargetAssemblyTypeName: CloonsTD.UIGameOver, Assembly-CSharp
+        m_MethodName: RetryLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &610071832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -705,7 +717,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1007602604}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2039642406}
+        m_TargetAssemblyTypeName: CloonsTD.UIGameOver, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1007602604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -963,7 +987,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1149825261}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2039642406}
+        m_TargetAssemblyTypeName: CloonsTD.UIGameOver, Assembly-CSharp
+        m_MethodName: GoNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1149825261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1221,7 +1257,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1396249479}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2039642406}
+        m_TargetAssemblyTypeName: CloonsTD.UIGameOver, Assembly-CSharp
+        m_MethodName: ReturnToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1396249479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1608,7 +1656,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play Again
+  m_text: Retry Level
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dad2b2c41e46ae14bb51d8baedbaffac, type: 2}
   m_sharedMaterial: {fileID: -8100094126172783603, guid: dad2b2c41e46ae14bb51d8baedbaffac, type: 2}
@@ -1827,6 +1875,7 @@ MonoBehaviour:
   _saveData: {fileID: 11400000, guid: 3a6c2d290400cae4f8a4e06db447007e, type: 2}
   _roundCounter: {fileID: 1682833846}
   _nextLevelButton: {fileID: 1149825258}
+  _retryButton: {fileID: 610071829}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
