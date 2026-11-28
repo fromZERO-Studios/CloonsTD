@@ -95,7 +95,7 @@ namespace CloonsTD {
                     for (int c = 0; c < entry.count; c++) {
                         float distance = distanceTraveled;
                         var child = PoolManager.Spawn(entry.cloonData.prefab, transform.position, transform.rotation);
-                        child.Initialize(entry.cloonData, distance);
+                        child.Initialize(entry.cloonData, distance, index);
 
                         if (spilloverDamage > 0)
                             child.TakeDamage(spilloverDamage);
